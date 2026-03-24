@@ -77,7 +77,7 @@ class Program
                             service.AdicionarAFila(dispositivo);
                         }
 
-                        Console.WriteLine("100 dispositivos adicionados a fila de autentica��o.");
+                        Console.WriteLine("100 dispositivos adicionados a fila de autenticação.");
                     }
                     else if (inc == "M")
                     {
@@ -103,7 +103,7 @@ class Program
                             dispositivo.ConsumoBanda = 0;
                         }
 
-                        Console.Write("Endere�o IP: ");
+                        Console.Write("Endereço IP: ");
                         dispositivo.EnderecoIP = Console.ReadLine();
 
                         service.AdicionarAFila(dispositivo);
